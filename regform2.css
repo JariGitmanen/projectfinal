@@ -1,0 +1,105 @@
+.inputs > input{
+    text-align: left;
+    margin-bottom: 12px;
+    padding: 12px;
+    color: rgb(14, 13, 13);
+    border-radius: 6px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    width: 280px;
+
+}
+.title >h1{
+    padding: 20px;
+  text-align: center;
+  background: rgb(80, 132, 230);
+  color: rgb(252, 249, 249);
+  font-size: 30px;
+  font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+  
+    
+}
+body{
+    text-align: center;
+    margin-bottom: 19px;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 18px;
+    font-stretch: fully-expanded;
+   
+    color: rgb(254, 254, 255);
+    background-color:rgb(80, 132, 230);
+}
+.button > button {
+        background-color:transparent;
+        -moz-border-radius:2px;
+        -webkit-border-radius:2px;
+        border-radius:50%;
+        border:2px solid rgb(252, 253, 255);
+        display:inline-block;
+        cursor:pointer;
+        color:white;
+        background-color:rgb(80, 132, 230);
+        font-family:Verdana;
+        font-size:14px;
+        font-weight:bold;
+        padding:9px 9px;
+        text-decoration:none;
+        width: 85px;
+        height: 85px;
+        animation: pulse 6s infinite;
+        text-align: center;
+}
+.button > button:hover {
+    text-align: center;
+    background-color:transparent;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:50%;
+    border:2px solid rgb(252, 253, 255);
+    display:inline-block;
+    cursor:pointer;
+    background-color:white;
+    color:rgb(80, 132, 230);
+    font-family:Verdana;
+    font-size:14px;
+    font-weight:bold;
+    padding:9px 9px;
+    text-decoration:none;
+    width: 85px;
+    height: 85px;
+    animation: pulse 6s infinite;
+}
+
+animation: pulse 6s infinite;
+@-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.397);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgb(255, 255, 255);
+      box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.397);
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.397);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+  a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }

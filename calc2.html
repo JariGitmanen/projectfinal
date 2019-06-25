@@ -1,0 +1,29 @@
+<html>
+      <body>
+<head>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
+      </head> 
+        <link rel = "stylesheet" href = "calc.css" />
+</head>
+<style> 
+    ::placeholder { /* Most modern browsers support this now. */
+   color:    rgb(252, 250, 252);
+}
+</style>
+    
+<header>
+      <a href="homepage.html" style="text-decoration:none"style="color: white"><h1><i class="fas fa-coins"></i>mySave</h1></a>
+    </header>
+
+
+
+<button onclick="window.location.href='menu.html'">menu</button></br>
+<input type="input" id = "savename" placeholder="Name your goal"required></br>
+
+<div id="content"><input type="range" id="cost" min="0" max="20000" value="1" step="50" oninput="update(this.value, fee.value, 'cost')">
+    <h2>You'd like to save £<span id="costval">0...</span><br></h2>
+    <input type="range" id="fee"min="1" max="60" value="1" step="1" oninput="calculateSavings(this.value,'cost')">
+    <h2>in <span id="slideval">0</span> month(s)</h2>
+      <h2>You can do this by saving £<span id="saved"></span> monthly</h2></div>
+<script src="calc2.js"></script>
+      </html>

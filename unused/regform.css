@@ -1,0 +1,63 @@
+.inputs > input{
+    text-align: left;
+    margin-bottom: 12px;
+    padding: 12px;
+    color: rgb(14, 13, 13);
+    border-radius: 6px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    width: 280px;
+
+}
+.title >h1{
+    padding: 20px;
+  text-align: left;
+  background: rgb(60, 60, 155);
+  color: rgb(252, 249, 249);
+  font-size: 30px;
+  font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+  animation: bounceIn 3s;
+    
+}
+body{
+    text-align: center;
+    margin-bottom: 12px;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 19px;
+    font-stretch: fully-expanded;
+   
+    color: rgb(60, 60, 155);
+}
+.button > button {
+        background-color:transparent;
+        border-radius:50%;
+        border:2px solid rgb(60, 60, 155);
+        display:inline-block;
+        cursor:pointer;
+        color:white;
+        background-color:rgb(60, 60, 155);
+        font-family:Verdana;
+        font-size:16px;
+        font-weight:bold;
+        padding:9px 9px;
+        text-decoration:none;
+        width: 280px;
+        animation: pulse 6s infinite;
+}
+.container{
+    align-content: center;
+}   
+  
+@keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgb(97, 200, 241);
+      box-shadow: 0 0 0 0 rgb(97, 200, 241);
+    }
+    60% {
+        -moz-box-shadow: 0 0 0 4px rgb(97, 200, 241);
+        box-shadow: 0 0 0 4px rgb(97, 200, 241);
+    }
+    90% {
+        -moz-box-shadow: 0 0 0 0 rgb(97, 200, 241);
+        box-shadow: 0 0 0 0 rgb(97, 200, 241);
+    }
+  }

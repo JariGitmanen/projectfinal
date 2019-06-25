@@ -1,0 +1,195 @@
+.inputs > input{
+    text-align: left;
+    margin-bottom: 12px;
+    padding: 12px;
+    color: rgb(14, 13, 13);
+    border-radius: 6px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    width: 280px;
+  
+  }
+  header{
+    padding: 5px;
+  text-align: center;
+  background: rgb(80, 132, 230);
+  color: rgb(252, 249, 249);
+  font-size: 15px;
+  font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+  
+  
+    
+  }
+  body{
+    text-align: center;
+    margin-bottom: 19px;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 18px;
+    font-stretch: fully-expanded;
+   
+    color: rgb(254, 254, 255);
+    background-color:rgb(80, 132, 230);
+  }
+  button{
+   width: 0%;
+    background-color:transparent;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:50%;
+    border:2px solid rgb(252, 253, 255);
+    display:inline-block;
+    cursor:pointer;
+    color:white;
+    background-color:rgb(80, 132, 230);
+    font-family:Verdana;
+    font-size:14px;
+    font-weight:bold;
+    padding:9px 9px;
+    text-decoration:none;
+    width: 85px;
+    height: 85px;
+    animation: pulse 6s infinite;
+    text-align: center;
+    margin-bottom: 19px;
+   
+        
+  }
+  button:hover{
+    text-align: center;
+    background-color:transparent;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:50%;
+    border:2px solid rgb(252, 253, 255);
+    display:inline-block;
+    cursor:pointer;
+    background-color:white;
+    color:rgb(80, 132, 230);
+    font-family:Verdana;
+    font-size:14px;
+    font-weight:bold;
+    padding:9px 9px;
+    text-decoration:none;
+    width: 85px;
+    height: 85px;
+    animation: pulse 6s infinite;
+    margin-bottom: 19px;
+  
+  }
+  body {
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif; 
+    color: white;
+    background-color: rgb(80, 132, 230);
+    text-align: center;
+    }
+    #content {
+      width: 50vw;
+      margin: 10% auto;
+      text-align: left;
+    }
+    input[type=range]{
+        -webkit-appearance: none;
+        background: transparent;
+        width: 100%;
+    }
+    
+    input[type=range]:focus {
+        outline: none;
+    }
+    
+    input[type=range]::-webkit-slider-runnable-track {
+      height: 5px;
+      width: 90%;
+      background: rgba(78,78,76,0.2);
+      cursor: pointer;
+    }
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      height: 22px;
+      width: 22px;
+      background-color: rgb(80, 132, 230);
+      border: 3px solid #ffffff;
+      margin-top: -9px;
+      border-radius: 50%;
+      transition: .1s ease-in-out;
+    }
+    input[type=range]::-webkit-slider-thumb:hover {
+      transform: scale(1.2);
+    }
+    
+    input[type=range]:focus::-webkit-slider-runnable-track {
+        background: rgba(78,78,76,0.2);
+    }
+    
+    /**MOZ**/
+    
+    input[type=range]::-moz-range-thumb {
+      -webkit-appearance: none;
+      height: 22px;
+      width: 22px;
+      background-color: rgba(78,78,76,1);
+      border: 3px solid #9cd3d2;
+      margin-top: -9px;
+      border-radius: 50%;
+      transition: .1s ease-in-out;
+    }
+    input[type=range]::-moz-range-track {
+      height: 5px;
+      width: 100%;
+      background: rgba(78,78,76,0.2);
+      cursor: pointer;
+    }
+    input[type=range]::-moz-focus-outer {
+        border: 0;
+    }
+     /**IE**/
+    
+    input[type=range]::-ms-thumb {
+      background-color: rgba(78,78,76,1);
+      border: 2px solid #9cd3d2;
+      border-radius: 50%;
+      height: 11px;
+      width: 11px;
+      transition: .1s ease-in-out;
+      margin-top: 1px;
+    }
+    input[type=range]::-ms-track {
+      height: 5px;
+      width: 100%;
+      background: transparent; 
+      border-color: transparent;
+      color: transparent;
+      cursor: pointer;
+    }
+    input[type=range]::-ms-fill-lower {
+      background: #9cd3d2;
+    }
+    input[type=range]:focus::-ms-fill-lower {
+      background: #9cd3d2;
+    }
+    input[type=range]::-ms-fill-upper {
+      background: rgba(78,78,76,0.2);
+    }
+    input[type=range]:focus::-ms-fill-upper {
+      background: rgba(78,78,76,0.2);
+    }
+    input[id=savename]{
+      width: 0%;
+      background-color:transparent;
+      -moz-border-radius:2px;
+      -webkit-border-radius:2px;
+      border-radius:5%;
+      border:2px solid rgb(252, 253, 255);
+      display:inline-block;
+      cursor:pointer;
+      color:white;
+      background-color:rgb(80, 132, 230);
+      font-family:Verdana;
+      font-size:14px;
+      font-weight:bold;
+      padding:9px 9px;
+      text-decoration:none;
+      width: 185px;
+      height: 35px;
+      animation: pulse 6s infinite;
+      text-align: center;
+      margin-bottom: -19px;

@@ -1,0 +1,33 @@
+<html>
+<head><link rel = "stylesheet" href = "regform2.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
+</head> 
+<title>mySave</title>
+<link rel="icon" href="icon.png">
+
+<div class = "title">
+        <h1><i class="fas fa-coins"></i>mySave</h1>
+</div>
+<form onsubmit="return handleSubmit(this)" class = form>
+<body>
+<div class = "container">
+    <div class ="inputs">
+    <i class="far fa-address-card"></i>update your details</br>
+    <input type="text" id="firstname" placeholder="First name"></br>
+    <input type="text" id="lastname" placeholder="Last name"></br>
+    <input type="password" id="password" placeholder="New password"></br>
+    <input type="password" id="password2" placeholder="Confirm new password"></br>
+    <input type="email" id="email" placeholder="E-mail address"></br>
+    </div>
+</div>
+<div class ="button">
+    <button onclick="window.location.href='updateconfirmed.html'">update</button>
+</div>
+
+<script src = "confirmpw.js"></script>
+<script src = "confirm.js"></script>
+
+</form>
+
+</body>   
+</html>
